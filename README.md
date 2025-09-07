@@ -4,17 +4,17 @@ using namespace std;
 // matris asli va bastar baztabi va tagharoni va terayayi
 int main() {
     int n ;
-	cout << "andaze matris ra vared kon(satr=sotoon)" << "\n" ;
+	cout << "andaze matris ra vared kon(satr=sotoon): " ;
 	cin >> n ;
 	
 	int matris[n][n] ;
 	cout << "matris rabeteh ra vared kon(0 or 1)" << "\n" ;
 	for(int i=0 ; i<n ; i++) {
-		cout << "satr" << i+1 << ": \n" ;
+		cout << "satr" << i+1 << ": " ;
 		for(int j=0 ; j<n ; j++) {
 			cin >> matris[i][j] ;
 		}
-		cout << "\n" ;
+    cout << endl;
 	}
 	
     cout << "matris asli:\n";
